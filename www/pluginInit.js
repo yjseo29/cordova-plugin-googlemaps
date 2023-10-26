@@ -99,9 +99,6 @@ function pluginInit() {
     '   background-color: rgba(0,0,0,0) !important;',
     '   background: rgba(0,0,0,0) none !important;',
     '   display:none !important;',
-    '}',
-    '.framework7-root .page-previous {',
-    '   display:none !important;',
     '}'
   ].join('');
   document.head.appendChild(cssAdjuster);
