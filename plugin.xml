@@ -460,7 +460,15 @@
       </array>
     </config-file>
 
-    <dependency id="com.googlemaps.ios" url="https://github.com/mapsplugin/cordova-plugin-googlemaps-sdk"  />
+    <!--<dependency id="com.googlemaps.ios" url="https://github.com/mapsplugin/cordova-plugin-googlemaps-sdk"  />-->
+    <podspec>
+      <config>
+        <source url="https://github.com/CocoaPods/Specs.git"/>
+      </config>
+      <pods>
+        <pod name="GoogleMaps" version="7.4.0" />
+      </pods>
+    </podspec>
 
 <!--
     <hook type="before_platform_add" src="src/ios/check_sdk_version.js"/>
